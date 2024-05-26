@@ -199,10 +199,9 @@ nav ul li a:hover{
 
 @media screen and (max-width: 500px){
     .acceuil h1{
-        Font-size: 30px;
+        font-size:35px;
     }
 }
-
 
 /*mise en page de la partie A-propos*/
 .apropos{
@@ -253,9 +252,10 @@ nav ul li a:hover{
 }
 
 @media screen and (max-width: 500px){
-     .apropos h1{
-        font-size: 18px;
-} 
+    .apropos h1{
+        font-size:18px;
+    }
+}
 
 /*mise en page de la partie Services*/
 .service{
@@ -313,9 +313,9 @@ nav ul li a:hover{
     }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px){
     .service h1{
-    font-size: 25px;
+        font-size:35px;
     }
 }
 /*mise en pge de la partie portfolio*/
@@ -352,6 +352,12 @@ nav ul li a:hover{
 color: whitesmoke;
 background-color: blue;
 box-shadow: 4px 3px 2px 1px ;
+}
+
+@media screen and (max-width: 500px){
+    .porfolio h1{
+        font-size:35px;
+    }
 }
 
 /*mise en pge de la partie Réalisation*/
@@ -454,10 +460,10 @@ box-shadow: 4px 3px 2px 1px ;
     }
 }
 
-@media screen  and (max-width:500px){
-   .contacts h1{
-    font-size: 30px;
-
+@media screen and (max-width: 500px){
+    .contacts h1{
+        font-size:20px;
+    }
 }
 
 footer{
