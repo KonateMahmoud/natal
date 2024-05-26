@@ -1,0 +1,452 @@
+*{
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+main{
+    box-shadow: 5px 10px 5px 1px ;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    border: solid 1px;
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    margin-left: 5em;
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+
+.logo{
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.menu-icon{
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    display: flex;
+    margin-left:5rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover{
+    color: blue;
+    border: solid 1px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 9px;
+    box-shadow:  gray 5px 4px 3px 2px;
+}
+/*pour une navigation compatible avec le smatphone*/
+
+@media screen and (max-width: 1280px) {
+
+    header{
+        font-size: 18px;
+    }
+
+    nav ul li{
+        margin-left: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 840px){
+    header{
+        font-size: 15px;
+    }
+
+    nav ul li{
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    header{
+        font-size: 12px;
+        font-weight: 700;
+        font-family: 'Oswald';
+    }
+}
+
+@media screen and (max-width: 572px){
+    .navLink{
+        display: none;
+        flex-direction:column;
+        width: 30%;
+    }
+
+    header{
+        font-size: 15px;
+        font-weight: 900;
+        color: blue;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
+/* mise en page de la partie acceuil*/
+.acceuil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vb;
+}
+.acceuil h1{
+    font-size: 90px;
+    color: blue;
+    font-family: fantasy;
+}
+.acceuil p{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.image{
+    width: 40vh;
+}
+
+@media screen and (max-width: 1270px){
+    .acceuil h1{
+        font-size: 95px;
+    }
+    .acceuil p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1150px){
+    .acceuil h1{
+        font-size: 100px;
+    }
+    .acceuil p{
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .acceuil{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .acceuil h1{
+        margin-top: 100px;
+        font-size: 60px;
+    }
+    .acceuil p{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .image{
+        width: 30vh;
+        
+    }
+}
+
+@media screen and (max-width: 814px){
+    .image{
+        width: 25vh;
+    }
+}
+
+@media screen and (max-width: 612px){
+    .image{
+        width: 18vh;
+    }
+}
+
+
+/*mise en page de la partie A-propos*/
+.apropos{
+    height: 100lvh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.apropos h1{
+    font-size: 50px;
+    color: blue;
+    font-family: fantasy;
+}
+.apropos p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1051px){
+    .apropos h1{
+        font-size: 40px;
+        color: blue;
+    }
+    .apropos p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .apropos h1{
+        font-size: 30px;
+        color: blue;
+    }
+    .apropos p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 680px){
+    .apropos h1{
+        font-size: 24px;
+        color: blue;
+    }
+    .apropos p{
+        font-size: 14px;
+    }
+}
+
+/*mise en page de la partie Services*/
+.service{
+    display: flex;
+    align-items: center;
+    font-family:  Arial, Helvetica, sans-serif;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.service h1{
+    font-size: 60px;
+    margin: auto;
+    font-family: fantasy;
+    color: blue;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.vice{
+    border: solid 1px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.vice h3{
+    font-size: 20px;
+    font-family: fantasy;
+    color: blue;
+}
+
+@media screen and (max-width:1100px) {
+    .service{
+       font-size: 12px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .service{
+        height: 100%;
+    }
+    .serv{
+        width: 50%;
+        flex-direction: column;
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .service{
+       flex-wrap: wrap;
+    }
+}
+/*mise en pge de la partie portfolio*/
+
+.porfolio{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.porfolio h1{
+    font-size: 50px;
+    color: blue;
+    font-family: fantasy;
+    margin: auto;
+}
+
+.photo .plus, .contacts .plus{
+    color: blue;
+    border: solid 2px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.photo .plus:hover{
+color: whitesmoke;
+background-color: blue;
+box-shadow: 4px 3px 2px 1px ;
+}
+
+/*mise en pge de la partie Réalisation*/
+
+.contacts{
+    border: solid 2px;
+    height: 100%;
+    border-radius: 15px;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    background-image: url('https://labadhoc.com/wp-content/uploads/2020/07/hand-1030563_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts h1{
+    font-size: 50px;
+    color: blue;
+    font-family: fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon a{
+    border-radius: 50%;
+    font-size: 15px;
+    text-decoration: none;
+}
+.icon a:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+.formulaire{
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+label{
+    font-size: 20px;
+    font-family: "agency fb", sans-serif;
+}
+input{
+    border: solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: #000 6px 8px 8px;
+    width: 30rem;
+    height: 3rem;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+textarea{
+    border: solid gray;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: #000 6px 8px 8px;
+    font-size: 20px;
+    width: 30rem;
+    height: 10rem;
+    color: white;
+    padding: 10px;
+}
+button:hover{
+    color: whitesmoke;
+background-color: blue;
+box-shadow: 4px 3px 2px 1px ;
+}
+
+
+@media screen  and (max-width:1050px){
+    .contacts h1{
+        font-size: 30px;
+    }
+}
+@media screen  and (max-width:800px){
+    input{
+        border-radius: 10px;
+        background-color: transparent;
+        box-shadow: #000 6px 8px 8px;
+        width: 15rem;
+        font-size: 18px;
+    }
+    textarea{
+        border-radius: 10px;
+        background-color: transparent;
+        box-shadow: #000 6px 8px 8px;
+        font-size: 18px;
+        width: 20rem;
+    }
+}
+
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 2%;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: gold;
+}
