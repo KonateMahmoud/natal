@@ -16,6 +16,7 @@ main{
 
 h1{
     border: solid 1px;
+    border-radius: 10px;
 }
 
 header{
@@ -321,6 +322,7 @@ nav ul li a:hover{
 /*mise en pge de la partie portfolio*/
 
 .porfolio{
+    margin-top: 10%;
     height: 100%;
     display: flex;
     align-items: center;
@@ -356,22 +358,21 @@ box-shadow: 4px 3px 2px 1px ;
 
 @media screen and (max-width: 500px){
     .porfolio h1{
-        font-size:28px;
+        font-size:30px;
     }
 }
 
 /*mise en pge de la partie Réalisation*/
 
 .contacts{
-    border: solid 2px;
     height: 100%;
-    border-radius: 15px;
     padding-bottom: 2%;
     margin-bottom: 2%;
-    background-color: #000;
+    margin-top: 5%;
 }
 
 .contacts h1{
+    
     font-size: 50px;
     color: blue;
     font-family: fantasy;
@@ -409,7 +410,7 @@ label{
 input{
     border: solid gray;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: #000;
     box-shadow: #000 6px 8px 8px;
     width: 30rem;
     height: 3rem;
@@ -420,7 +421,7 @@ input{
 textarea{
     border: solid gray;
     border-radius: 10px;
-    background-color: transparent;
+    background-color: #000;
     box-shadow: #000 6px 8px 8px;
     font-size: 20px;
     width: 30rem;
@@ -443,14 +444,12 @@ box-shadow: 4px 3px 2px 1px ;
 @media screen  and (max-width:800px){
     input{
         border-radius: 10px;
-        background-color: transparent;
         box-shadow: #000 6px 8px 8px;
         width: 15rem;
         font-size: 18px;
     }
     textarea{
         border-radius: 10px;
-        background-color: transparent;
         box-shadow: #000 6px 8px 8px;
         font-size: 18px;
         width: 20rem;
