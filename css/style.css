@@ -199,7 +199,7 @@ nav ul li a:hover{
 
 @media screen and (max-width: 500px){
     .acceuil h1{
-        font-size:35px;
+        font-size:40px;
     }
 }
 
@@ -253,7 +253,7 @@ nav ul li a:hover{
 
 @media screen and (max-width: 500px){
     .apropos h1{
-        font-size:20px;
+        font-size:16px;
     }
 }
 
@@ -315,7 +315,7 @@ nav ul li a:hover{
 
 @media screen and (max-width: 500px){
     .service h1{
-        font-size:40px;
+        font-size:45px;
     }
 }
 /*mise en pge de la partie portfolio*/
@@ -462,7 +462,7 @@ box-shadow: 4px 3px 2px 1px ;
 
 @media screen and (max-width: 500px){
     .contacts h1{
-        font-size:20px;
+        font-size:18px;
     }
 }
 
